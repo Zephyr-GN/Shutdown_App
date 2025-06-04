@@ -7,6 +7,7 @@ root.geometry("400x580")
 
 #Primer boton
 restart_time_button=PhotoImage(file="restart time.png")
+
 first_button=Button(root,image=restart_time_button,borderwidth=0,cursor="hand2")
 first_button.place(x=10,y=10)
 
@@ -28,3 +29,10 @@ shutdown_button=PhotoImage(file="shutdown.png")
 fouth_button=Button(root,image=shutdown_button,borderwidth=0,cursor="hand2")
 fouth_button.place(x=200,y=200)
 
+#Quinto boton
+logout_button=PhotoImage(file="log out.png")
+
+five_button=Button(root,image=logout_button,borderwidth=0,cursor="hand2")
+five_button.place(x=200,y=10)
+
+root.mainloop()
