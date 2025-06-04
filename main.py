@@ -21,3 +21,10 @@ restart_button=PhotoImage(file="restar.png")
 
 thrid_button=Button(root,image=restart_button,borderwidth=0,cursor="hand2")
 thrid_button.place(x=10,y=200)
+
+#Cuarto boton
+shutdown_button=PhotoImage(file="shutdown.png")
+
+fouth_button=Button(root,image=shutdown_button,borderwidth=0,cursor="hand2")
+fouth_button.place(x=200,y=200)
+
