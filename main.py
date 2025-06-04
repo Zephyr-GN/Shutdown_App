@@ -11,3 +11,7 @@ first_button=Button(root,image=restart_time_button,borderwidth=0,cursor="hand2")
 first_button.place(x=10,y=10)
 
 #Segundo boton
+close_button=PhotoImage(file="close.png")
+
+second_button=Button(root,image=close_button,borderwidth=0,cursor="hand2")
+second_button.place(x=200,y=10)
